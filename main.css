@@ -34,9 +34,6 @@ body {
     width: 570px;
     height: 350px;
 }
-.info-card-title {
-    display: block;
-}
 .avatar {
     display: block;
     border-radius: 50%;

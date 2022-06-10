@@ -43,6 +43,5 @@ body {
     border-radius: 50%;
     width: 30%;
     height: 49%;
-    margin-top: 3em;
-    margin: auto;
+    transform: translate(-50%, -50%);
 }

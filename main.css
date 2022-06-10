@@ -37,6 +37,7 @@ body {
 .info-card-title {
     margin-top: 2em;
     display: block;
+    font-size: 20px;
 }
 .info-card-front-img {
     display: block;

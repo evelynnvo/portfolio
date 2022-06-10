@@ -74,14 +74,6 @@ body {
     font-size: 20px;
 }
 
-.info-card-front-img {
-    border-radius: 50%;
-    width: 30%;
-    height: 49%;
-    margin: auto;
-    margin-top: 4em;
-}
-
 .card-face-back {
     background-color: white;
     transform: rotateX(180deg);
@@ -97,7 +89,6 @@ body {
     padding: 30px 30px 40px;
     background-color: white;
     border-style: hidden;
-    height: 70%;
 }
 
 .card-header:after {
@@ -110,4 +101,16 @@ body {
     bottom: 0;
     z-index: -1;
     background-color: white;
+}
+
+.card-header-front {
+    height: 70%;
+}
+
+.info-card-front-img {
+    border-radius: 50%;
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    margin-top: 4em;
 }

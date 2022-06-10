@@ -44,5 +44,5 @@ body {
     width: 30%;
     height: 49%;
     margin-top: 3em;
-    margin: auto;
+    translate: (0%, 50%);
 }

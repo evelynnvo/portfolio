@@ -130,10 +130,10 @@ body {
     padding-top: 0;
 }
 
-a {
+card-link {
     color: black;
 }
 
-a:hover {
+.card-link:hover {
     color:#deb9b8;
 }

@@ -4,21 +4,3 @@ body {
     background: #ffecec;
     font-family: 'Inconsolata', monospace;
 }
-.navbar {
-    background:#e3bfbf;
-}
-.nav-link,
-.navbar-brand {
-    color: #fff;
-    cursor: pointer;
-    margin-left: 1em !important;
-}
-.nav-link {
-    margin-right: 1em !important;
-}
-.nav-link:hover {
-    color: #000;
-}
-.navbar-collapse {
-    justify-content: flex-end;
-}

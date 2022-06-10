@@ -34,7 +34,10 @@ body {
     width: 570px;
     height: 350px;
 }
-.avatar {
+.info-card-title {
+    display: block;
+}
+.info-card-front-img {
     display: block;
     border-radius: 50%;
     width: 30%;

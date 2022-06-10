@@ -118,3 +118,13 @@ body {
     height: 122%;
     margin: 0 auto;
 }
+
+.card-header-back {
+    text-align: center;
+    height: 10%;
+}
+
+.card-body-back {
+    margin: 1em;
+    height: 90%;
+}

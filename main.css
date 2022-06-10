@@ -115,5 +115,6 @@ body {
     display: block;
     border-radius: 50%;
     width: 40%;
+    height: 100%;
     margin: 0 auto;
 }

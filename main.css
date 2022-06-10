@@ -126,5 +126,6 @@ body {
 
 .card-body-back {
     margin: 1em;
-    height: 90%;
+    height: 70%;
+    padding-top: 0;
 }

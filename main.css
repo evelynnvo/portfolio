@@ -37,6 +37,7 @@ body {
     border-radius: 40px;
     background-color: #ffecec;
     border-style: hidden;
+    perspective: 1000px;
 }
 
 .card-inner {
@@ -47,9 +48,9 @@ body {
     position: relative;
 }
 
-/* .card:hover .card-inner {
+.card:hover .card-inner {
     transform: rotateX(180deg);
-} */
+}
 
 .card-face {
     position: absolute;

@@ -92,7 +92,7 @@ body {
     border-style: hidden;
 }
 
-.card-header:after {
+/* .card-header:after {
     content: '';
     display: block;
     position: absolute;
@@ -102,7 +102,7 @@ body {
     bottom: 0;
     z-index: -1;
     background-color: white;
-}
+} */
 
 .card-header-front {
     height: 70%;

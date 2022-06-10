@@ -90,7 +90,6 @@ body {
     padding: 30px 30px 40px;
     background-color: white;
     border-style: hidden;
-    align-content: center;
 }
 
 .card-header:after {
@@ -113,5 +112,5 @@ body {
     border-radius: 50%;
     width: 40%;
     height: 100;
-    margin: auto;
+    margin: 0 auto;
 }

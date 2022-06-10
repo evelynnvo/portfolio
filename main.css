@@ -23,7 +23,7 @@ body {
     justify-content: flex-end;
 }
 .info-card {
-    display: flex;
+    display: block;
     background-color: white;
     border-radius: 45px;
     text-align: center;
@@ -33,12 +33,13 @@ body {
     left: 50%;
     width: 570px;
     height: 350px;
-    justify-content: center;
+}
+.info-card-title {
+    display: block;
 }
 .avatar {
     display: block;
     border-radius: 50%;
-    
     width: 30%;
     height: 49%;
 }

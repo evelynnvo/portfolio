@@ -47,9 +47,9 @@ body {
     position: relative;
 }
 
-.card:hover .card-inner {
+/* .card:hover .card-inner {
     transform: rotateX(180deg);
-}
+} */
 
 .card-face {
     position: absolute;

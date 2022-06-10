@@ -1,5 +1,6 @@
 const card = document.querySelector('.card-inner');
 card.addEventListener('click', function () {
     card.classList.toggle('is-flipped');
-    card.getAttribute('.card-face-front').getAttribute('.card-content').getAttribute('.card-header-front').toggle('is-flipped');
+    const cardHeaderFront = document.querySelector('.card-header-front');
+    cardHeaderFront.classList.toggle('is-flipped');
 });

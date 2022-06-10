@@ -3,6 +3,8 @@ body {
     margin: 0;
     background: #ffecec;
     font-family: 'Inconsolata', monospace;
+    width: 100%;
+    min-height: 100vh;
 }
 .navbar {
     background:#e3bfbf;
@@ -22,15 +24,9 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
-.info-card {
-    display: inline-block;
-    background-color: white;
-    border-radius: 30px;
-    text-align: center;
-    position: absolute;
-    top: 45%;
-	transform: translate(-50%, -55%);
-    left: 50%;
+
+.card {
+    margin: 100px auto 0;
     width: 500px;
     height: 307px;
 }
@@ -54,6 +50,8 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
+    border-radius: 40px;
+    box-shadow: 20px 20px #e3bfbf;
 }
 
 .card-face-front {
@@ -63,7 +61,7 @@ body {
     background-color: white;
 }
 
-.info-card-title {
+/* .info-card-title {
     margin-top: 2em;
     display: block;
     font-size: 20px;
@@ -75,7 +73,7 @@ body {
     height: 49%;
     margin: auto;
     margin-top: 4em;
-}
+} */
 
 .card-face-back {
     background-color: white;

@@ -34,6 +34,7 @@ body {
     width: 570px;
     height: 350px;
     margin-top: 5em;
+    box-shadow: 5px 10px #e3bfbf;
 }
 .info-card-title {
     margin-top: 2em;

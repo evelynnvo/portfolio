@@ -64,6 +64,7 @@ body {
 .card-face-front p {
     font-size: 20px;
 }
+
 .info-card-front-img {
     border-radius: 50%;
     width: 30%;
@@ -96,4 +97,5 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-color: white;
 }

@@ -35,6 +35,8 @@ body {
     width: 500px;
     height: 307px;
     border-radius: 40px;
+    background-color: #ffecec;
+    border-style: hidden;
 }
 
 .card-inner {
@@ -93,6 +95,8 @@ body {
 .card-header {
     position: relative;
     padding: 30px 30px 40px;
+    background-color: white;
+    border-style: hidden;
 }
 
 .card-header:after {

@@ -124,10 +124,10 @@ body {
     z-index: 100;
 }
 
-.card-link:active {
-    color: black;
+.card-link {
+    color: deb9b8;
 }
 
 .card-link:hover {
-    color:#deb9b8;
+    color:#e3bfbf;
 }

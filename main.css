@@ -65,15 +65,14 @@ body {
     margin-top: 2em;
     display: block;
     font-size: 20px;
-}
+}*/
 .info-card-front-img {
-    display: block;
     border-radius: 50%;
     width: 30%;
     height: 49%;
     margin: auto;
     margin-top: 4em;
-} */
+}
 
 .card-face-back {
     background-color: white;

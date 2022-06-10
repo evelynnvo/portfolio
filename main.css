@@ -99,9 +99,10 @@ body {
     justify-content: center;
 }
 
-/* .card-header-front.is-flipped {
+.card-header-front.is-flipped {
+    transition-delay: .3s;
     visibility: hidden;
-} */
+}
 
 .info-card-front-img {
     display: block;

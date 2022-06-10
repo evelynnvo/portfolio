@@ -106,6 +106,9 @@ body {
 
 .card-header-front {
     height: 70%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .info-card-front-img {

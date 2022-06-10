@@ -1,8 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    background: blue;
-    font-family: 'Inconsolata', monospace;;
+    background: #ffecec;
+    font-family: 'Inconsolata', monospace;
 }
 .navbar {
     background:#e3bfbf;

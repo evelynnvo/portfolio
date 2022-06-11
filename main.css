@@ -1,14 +1,20 @@
+:root {
+    --primary: #ffecec;
+    --secondary: #e3bfbf;
+    --dark: #af8482;
+}
+
 body {
     padding: 0;
     margin: 0;
-    background: #ffecec;
+    background: var(--primary);
     font-family: 'Inconsolata', monospace;
     width: 100%;
     min-height: 100vh;
 }
 
 .navbar {
-    background: #e3bfbf;
+    background: var(--secondary);
 }
 
 .nav-link,
@@ -23,7 +29,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #af8482;
+    color: var(--secondary);
 }
 
 .navbar-collapse {
@@ -35,7 +41,7 @@ body {
     width: 500px;
     height: 307px;
     border-radius: 40px;
-    background-color: #ffecec;
+    background-color: var(--primary);
     border-style: hidden;
     perspective: 1000px;
 }
@@ -60,7 +66,7 @@ body {
     backface-visibility: hidden;
     overflow: hidden;
     border-radius: 40px;
-    box-shadow: 20px 20px #e3bfbf;
+    box-shadow: 20px 20px var(--secondary);
 }
 
 .card-face-front {
@@ -125,9 +131,9 @@ body {
 }
 
 .card-link {
-    color: #e3bfbf;
+    color: var(--secondary);
 }
 
 .card-link:hover {
-    color: #ffecec;
+    color: var(--primary);
 }

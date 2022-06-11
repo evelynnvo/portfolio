@@ -139,7 +139,6 @@ body {
 .card-header-back {
     text-align: center;
     height: 10%;
-    margin-bottom: .2em;
 }
 
 .card-body-back {
@@ -179,4 +178,8 @@ body {
     color: var(--secondary);
     text-decoration: underline;
     font-size: 1.3em;
+}
+
+.card-3 .card-header-back {
+    font-size: 1em;
 }

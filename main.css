@@ -170,6 +170,7 @@ body {
     margin-right: 1em;
     border-radius: 40px;
     text-align: center;
+    cursor: pointer;
 }
 
 .button p {

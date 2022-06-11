@@ -48,8 +48,8 @@ deal_button.addEventListener('click', function () {
     deal_card();
 });
 
-document.onkeydown(function(e) {
-    switch(e.which) {
+document.keydown(function(e) {
+    switch(e.keyCode) {
         case 37: // left
             return_card();
             break;

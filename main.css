@@ -121,13 +121,12 @@ body {
     margin: 1em;
     height: 70%;
     padding-top: 0;
-    z-index: 100;
 }
 
-.card-link {
+.card-link:link {
     color: #deb9b8;
 }
 
-.card-link a:hover {
-    color:#e3bfbf;
+.card-link:hover {
+    color: #e3bfbf;
 }

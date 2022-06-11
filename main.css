@@ -159,12 +159,12 @@ body {
     height: 30px;
     display: flex;
     justify-content: center;
+    align-content: center;
     margin-top: 3em;
     margin-bottom: 3em;
 }
 
 .card-buttons .button {
-    background-color: var(--secondary);
     width: 70px;
     margin-left: 1em;
     margin-right: 1em;
@@ -174,4 +174,5 @@ body {
 
 .button p {
     color: white;
+    text-decoration: underline;
 }

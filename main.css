@@ -159,14 +159,19 @@ body {
     height: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .card-buttons .button {
-    background-color: var(--dark);
-    width: 60px;
-    margin-left: 1.5em;
+    background-color: var(--secondary);
+    width: 70px;
+    margin-left: 1em;
     margin-right: 1em;
     border-radius: 40px;
+    text-align: center;
+}
+
+.button p {
+    color: white;
 }

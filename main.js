@@ -1,8 +1,8 @@
 const return_button = document.querySelector('.return-button');
 return_button.addEventListener('click', function () {
-    $('.card-2').css('visibility','hidden');
     $('.card-1').css({ 'visibility': 'visible' });
     $('.card-2').animate({top: '33em'}).promise().done(function() {
+        $('.card-2').css('visibility','hidden');
     });
 });
 

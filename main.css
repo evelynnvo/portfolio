@@ -40,6 +40,17 @@ body {
     justify-content: flex-end;
 }
 
+.card-deck-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-deck-container .card {
+    position: absolute;
+}
+
 .card {
     margin: 100px auto 0;
     width: 500px;
@@ -140,15 +151,4 @@ body {
 
 .card-link:hover {
     color: var(--primary);
-}
-
-.card-deck-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.card-deck-container .card {
-    position: absolute;
 }

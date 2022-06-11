@@ -9,12 +9,12 @@ const return_button = document.querySelector('.return-button');
 
 return_button.addEventListener('click', function() {
     document.getElementsByClassName('.card-2').style.visibility = "hidden";
-    return_button.p.color = "blue"
+    return_button.p.color = "blue";
 });
 
 const deal_button = document.querySelector('.deal-button');
 deal_button.addEventListener('click', function() {
     document.getElementsByClassName('.card-2').style.visibility = "visible";
-    deal_button.p.color = "blue"
+    deal_button.p.color = "blue";
 
 });

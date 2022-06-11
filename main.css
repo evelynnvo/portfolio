@@ -29,7 +29,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--secondary);
+    color: var(--dark);
 }
 
 .navbar-collapse {

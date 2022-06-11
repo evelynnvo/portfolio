@@ -54,7 +54,7 @@ body {
     position: relative;
 }
 
-.card:hover .card-inner.is-flipped {
+.card:hover .card-inner {
     transform: rotateX(180deg);
 }
 

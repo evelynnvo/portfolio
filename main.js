@@ -15,7 +15,7 @@ return_button.addEventListener('click', function () {
 const deal_button = document.querySelector('.deal-button');
 deal_button.addEventListener('click', function () {
     $('.card-' + next_card).css('visibility', 'visible');
-    $('.card-' + prev_card).animate({top: '-33em'}, "slow").promise().done(function() {
+    $('.card-' + next_card).animate({top: '-33em'}, "slow").promise().done(function() {
             $('.card-' + prev_card).css({ 'visibility': 'hidden' });
     });
 

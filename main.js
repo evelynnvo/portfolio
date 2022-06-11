@@ -47,18 +47,3 @@ const deal_button = document.querySelector('.deal-button');
 deal_button.addEventListener('click', function () {
     deal_card();
 });
-
-document.keyDown(function(e) {
-    switch(e.keyCode) {
-        case 37: // left
-            return_card();
-            break;
-        case 39: // right
-            deal_card();
-            break;
-        default: 
-            break;
-    }
-    return;
-});
-

@@ -49,6 +49,7 @@ body {
 
 .card-deck-container .card {
     position: absolute;
+    visibility: hidden;
 }
 
 .card {

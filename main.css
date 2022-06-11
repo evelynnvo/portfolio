@@ -139,6 +139,7 @@ body {
 .card-header-back {
     text-align: center;
     height: 10%;
+    margin-bottom: .2em;
 }
 
 .card-body-back {

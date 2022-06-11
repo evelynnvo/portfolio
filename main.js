@@ -8,8 +8,10 @@ return_button.addEventListener('click', function () {
         $('.card-' + (prev_card - 1)).css({ 'visibility': 'visible' });
         $('.card-' + prev_card).animate({ top: '33em' }, "slow").promise().done(function () {
             $('.card-' + prev_card).css('visibility', 'hidden');
-            prev_card--;
-            next_card--;
+            if(prev_card > 1) {
+                prev_card--;
+                next_card--;
+            }
         });
     }
 });

@@ -2,8 +2,7 @@ var next_card = 2; // number of next card to deal
 var prev_card = 1; // number of next card to return
 var max_card = 5;
 
-const return_button = document.querySelector('.return-button');
-return_button.addEventListener('click', function () {
+function return_card() {
     if (prev_card > 1) {
         $('.card-' + (prev_card - 1)).css({ 'visibility': 'visible' });
         $('.card-' + prev_card).animate({ top: '33em' }, "slow").promise().done(function () {
@@ -19,10 +18,10 @@ return_button.addEventListener('click', function () {
             }
         });
     }
-});
+    return;
+}
 
-const deal_button = document.querySelector('.deal-button');
-deal_button.addEventListener('click', function () {
+function deal_card() {
     if (next_card < max_card + 1) {
         $('.card-' + next_card).css('visibility', 'visible');
         $('.card-' + next_card).animate({ top: '-33em' }, "slow").promise().done(function () {
@@ -38,4 +37,28 @@ deal_button.addEventListener('click', function () {
             }
         });
     }
+}
+const return_button = document.querySelector('.return-button');
+return_button.addEventListener('click', function () {
+    return_card();
 });
+
+const deal_button = document.querySelector('.deal-button');
+deal_button.addEventListener('click', function () {
+    deal_card();
+});
+
+document.onkeydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+            return_card();
+            break;
+        case 39: // right
+            deal_card();
+            break;
+        default: 
+            break;
+    }
+    return;
+});
+

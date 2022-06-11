@@ -157,9 +157,15 @@ body {
 .card-buttons {
     width: 100%;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-.card-buttons button {
+.card-buttons .button {
     background-color: var(--dark);
     width: 40px;
+    margin-left: 1em;
+    margin-right: 1em;
 }

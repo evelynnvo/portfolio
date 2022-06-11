@@ -1,6 +1,6 @@
 var next_card = 2; // number of next card to deal
 var prev_card = 1; // number of next card to return
-var max_card = 4;
+var max_card = 5;
 
 const return_button = document.querySelector('.return-button');
 return_button.addEventListener('click', function () {

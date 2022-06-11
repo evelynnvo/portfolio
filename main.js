@@ -48,7 +48,7 @@ deal_button.addEventListener('click', function () {
     deal_card();
 });
 
-document.keydown(function(e) {
+document.keyDown(function(e) {
     switch(e.keyCode) {
         case 37: // left
             return_card();

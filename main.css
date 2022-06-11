@@ -173,7 +173,7 @@ body {
 }
 
 .button p {
-    color: white;
+    color: var(--secondary);
     text-decoration: underline;
-    font-size: 4em;
+    font-size: 1.3em;
 }

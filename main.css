@@ -100,7 +100,7 @@ body {
 }
 
 .card-header-front.is-flipped {
-    transition-delay: .3s;
+    /* transition-delay: .3s; */
     visibility: hidden;
 }
 

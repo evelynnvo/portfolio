@@ -12,7 +12,9 @@ return_button.addEventListener('click', function () {
                 next_card--;
             if(next_card <= max_card) {
                 $('.deal-button').css('visibility', 'visible');
-            } else if(prev_card === 1) {
+            } 
+
+            if(prev_card === 1) {
                 $('.return-button').css('visibility', 'hidden');
             }
         });
@@ -29,7 +31,9 @@ deal_button.addEventListener('click', function () {
             next_card++;
             if(next_card > max_card) {
                 $('.deal-button').css('visibility', 'hidden');
-            } else if(prev_card > 1) {
+            }
+            
+            if(prev_card > 1) {
                 $('.return-button').css('visibility', 'visible');
             }
         });

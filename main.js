@@ -8,13 +8,13 @@
 const return_button = document.querySelector('.return-button');
 
 return_button.addEventListener('click', function() {
-    document.getElementsByClassName('.card-2').style.visibility = "hidden";
-    return_button.background = "blue";
+    document.getElementsByClassName('.card-2').style.display = "none";
+    return_button.style.background = "blue";
 });
 
 const deal_button = document.querySelector('.deal-button');
 deal_button.addEventListener('click', function() {
-    document.getElementsByClassName('.card-2').style.visibility = "visible";
-    deal_button.background = "blue";
+    document.getElementsByClassName('.card-2').style.display = "block";
+    deal_button.style.background = "blue";
 
 });

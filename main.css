@@ -33,10 +33,6 @@ body {
     color: var(--dark);
 }
 
-.navbar-brand:hover {
-    color: var(--dark);
-}
-
 .navbar-collapse {
     justify-content: flex-end;
 }

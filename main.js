@@ -4,7 +4,7 @@ var max_card = 5;
 
 const return_button = document.querySelector('.return-button');
 return_button.addEventListener('click', return_card());
-$(document).keyDown(function(e) {
+document.keyDown(function(e) {
     if(e.keyCode === 37) {
         return_card();
     } else if(e.keyCode === 39) {
@@ -31,6 +31,7 @@ function return_card() {
             }
         });
     }
+    return;
 }
 
 function deal_card() {
@@ -49,4 +50,5 @@ function deal_card() {
             }
         });
     }
+    return;
 }

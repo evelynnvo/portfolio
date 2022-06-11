@@ -105,7 +105,7 @@ body {
     justify-content: center;
 }
 
-.card-header-front.is-flipped {
+.card:hover .card-header-front {
     transition-delay: .3s;
     visibility: hidden;
 }

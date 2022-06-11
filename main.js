@@ -16,7 +16,7 @@ return_button.addEventListener('click', function () {
 
 const deal_button = document.querySelector('.deal-button');
 deal_button.addEventListener('click', function () {
-    if (next_card < 3) {
+    if (next_card < max_card + 1) {
         $('.card-' + next_card).css('visibility', 'visible');
         $('.card-' + next_card).animate({ top: '-33em' }, "slow").promise().done(function () {
             $('.card-' + prev_card).css({ 'visibility': 'hidden' });

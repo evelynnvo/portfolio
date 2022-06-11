@@ -123,10 +123,10 @@ body {
     padding-top: 0;
 }
 
-.card-link:link {
-    color: #deb9b8;
+.card-link {
+    color: #e3bfbf;
 }
 
 .card-link:hover {
-    color: #e3bfbf;
+    color: #ffecec;
 }

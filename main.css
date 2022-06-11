@@ -165,7 +165,8 @@ body {
 
 .card-buttons .button {
     background-color: var(--dark);
-    width: 40px;
-    margin-left: 1em;
+    width: 60px;
+    margin-left: 1.5em;
     margin-right: 1em;
+    border-radius: 40px;
 }

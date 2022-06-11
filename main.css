@@ -180,6 +180,6 @@ body {
     font-size: 1.3em;
 }
 
-.card-3 .card-header-back {
-    height: 30%;
+.card-3 .card-header-back h2{
+    font-size: 1em;
 }
